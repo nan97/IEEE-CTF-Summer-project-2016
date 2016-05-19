@@ -1,10 +1,10 @@
-names=["Nandini","Ragini","Vignesh","Henna"]
-for x in range(0,3):
-	for y in range(x+1,4):
+names=["nandini","dhir","swati","sreeps","rohanSurve","tarun","chinmaydd","sarthak","swathibhat","natasha"]
+for x in range(0,9):
+	for y in range(x+1,10):
 		if(names[x]>names[y]):
 			t=names[x];
 			names[x]=names[y]
 			names[y]=t
-for x in range(0,4):
+for x in range(0,10):
 	print(names[x])
 
